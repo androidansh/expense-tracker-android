@@ -1,6 +1,5 @@
 package com.codewithfk.expensetracker.android.feature.stats
 
-import androidx.lifecycle.ViewModel
 import com.codewithfk.expensetracker.android.base.BaseViewModel
 import com.codewithfk.expensetracker.android.base.UiEvent
 import com.codewithfk.expensetracker.android.utils.Utils

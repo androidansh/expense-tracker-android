@@ -9,11 +9,6 @@ import androidx.sqlite.db.SupportSQLiteDatabase
 import com.codewithfk.expensetracker.android.data.dao.ExpenseDao
 import com.codewithfk.expensetracker.android.data.model.ExpenseEntity
 import dagger.hilt.android.qualifiers.ApplicationContext
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import javax.inject.Inject
-import javax.inject.Provider
 import javax.inject.Singleton
 
 @Database(entities = [ExpenseEntity::class], version = 2, exportSchema = false)
